@@ -19,7 +19,7 @@ const Dress = () => {
                 <h4 className="card-title">DRESS</h4>
                 <p className="card-text">TZS 200,000</p>
                 <a
-                  href="https://wa.me/25576339010"
+                  href="https://wa.me/255763390105"
                   className="btn btn-success px-5"
                 >
                   <FaWhatsapp className="fs-3" />
@@ -32,7 +32,7 @@ const Dress = () => {
                 <h4 className="card-title">DRESS</h4>
                 <p className="card-text">TZS 200,000</p>
                 <a
-                  href="https://wa.me/25576339010"
+                  href="https://wa.me/255763390105"
                   className="btn btn-success px-5"
                 >
                   <FaWhatsapp className="fs-3" />

@@ -20,7 +20,7 @@ const Watches = () => {
                 <h4 className="card-title">CITIZEN</h4>
                 <p className="card-text">TZS 90,000</p>
                 <a
-                  href="https://wa.me/25576339010"
+                  href="https://wa.me/255763390105"
                   className="btn btn-success px-5"
                 >
                   <FaWhatsapp className="fs-3" />
@@ -33,7 +33,7 @@ const Watches = () => {
                 <h4 className="card-title">CITIZEN</h4>
                 <p className="card-text">TZS 90,000</p>
                 <a
-                  href="https://wa.me/25576339010"
+                  href="https://wa.me/255763390105"
                   className="btn btn-success px-5"
                 >
                   <FaWhatsapp className="fs-3" />
@@ -49,7 +49,7 @@ const Watches = () => {
                 <h4 className="card-title">ROLEX</h4>
                 <p className="card-text">TZS 90,000</p>
                 <a
-                  href="https://wa.me/25576339010"
+                  href="https://wa.me/255763390105"
                   className="btn btn-success px-5"
                 >
                   <FaWhatsapp className="fs-3" />
@@ -62,7 +62,7 @@ const Watches = () => {
                 <h4 className="card-title">CITIZEN</h4>
                 <p className="card-text">TZS 90,000</p>
                 <a
-                  href="https://wa.me/25576339010"
+                  href="https://wa.me/255763390105"
                   className="btn btn-success px-5"
                 >
                   <FaWhatsapp className="fs-3" />

@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Maintenance from "../assets/Maintenance.jpg";
-import Computererror from "../assets/Error.jpg";
+// import Computererror from "../assets/Error.jpg";
 
 const ErrorPage = () => {
   const [answer, setAnswer] = useState("");
 
   const answers = [
-    "I am not the only traveller, who has not repaid his debt",
-    "Wish I could erase it make your heart believe",
-    "I never meant to hurt you",
-    "Wish I could fix this, I wish it was that easy",
+    "Octopuses have three hearts: Two pump blood to the gills and one pumps blood to the rest of the body.",
+    "There are more stars in the universe than grains of sand o Earth.",
+    "Who is older between Sharks and Trees?: Sharks.",
+    "Bananas are berries, strawberries are not.",
+    "Sloths can hold their breath longer than dolphins.",
   ];
 
   const getRandomAnswer = () => {
@@ -19,20 +20,21 @@ const ErrorPage = () => {
   };
 
   return (
-    <section className="bg-light">
+    <section className="bg-light vh-100">
       <div className="container text-center py-5 px-4" id="errorpage">
         <div className="col-md-6">
           {/* <img src={Computererror} alt="Computer Error" className="img-fluid" /> */}
           <div className="text-primary">
-            SYSTEM UNDER MAINTENANCE <br />
-            <small>We will be back soon.</small>
+            <span className="fs-1 fw-bold">UNDER MAINTENANCE</span>
             <br />
-            <div className="random-fact">
-              <h3>Care for a free fact?</h3>
+            <span>"I wil be back" - Terminator</span>
+            <br />
+            <div className="random-fact mt-5">
+              <h4>Care for a free fact?</h4>
               <div className="px-3 py-2 rounded bg-warning text-light">
                 <p>{answer}</p>
                 <button
-                  className="btn btn-outline-warning w-50 text-light"
+                  className="btn btn-outline-primary w-50 text-light"
                   onClick={getRandomAnswer}
                 >
                   YES
