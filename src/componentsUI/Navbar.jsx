@@ -6,8 +6,8 @@ import {
   FaWallet,
   FaHamburger,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import { Dropdown } from "bootstrap";
+import {Link} from "react-router-dom";
+import {Dropdown} from "bootstrap";
 
 const Navbar = () => {
   const styleIcons = {
@@ -81,7 +81,7 @@ const Navbar = () => {
                 <FaShoePrints style={styleIcons} /> SHOES
               </a>
               <div className="dropdown-menu">
-                <Link className="dropdown-item" to="officialshoes">
+                <Link className="dropdown-item" to="/bright-and-shine/officialshoes">
                   Official Shoes
                 </Link>
                 <a className="dropdown-item" href="#" onClick={peekera}>

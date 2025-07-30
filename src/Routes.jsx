@@ -1,4 +1,4 @@
-import { createRoutesFromElements, Route } from "react-router-dom";
+import {createRoutesFromElements, Route} from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import App from "./App";
 import Suits from "./pages/Suits";
@@ -9,15 +9,15 @@ import Dress from "./pages/Dress";
 
 const routes = createRoutesFromElements(
   <>
-    <Route path="/bright-and-shine/new/" element={<MainLayout />}>
+    <Route path="/bright-and-shine/" element={<MainLayout />}>
       <Route index element={<App />} />
-      <Route path="/bright-and-shine/new/suits" element={<Suits />} />
+      <Route path="/bright-and-shine/suits" element={<Suits />} />
       <Route
-        path="/bright-and-shine/new/officialshoes"
+        path="/bright-and-shine/officialshoes"
         element={<OfficialShoes />}
       />
-      <Route path="/bright-and-shine/new/watches" element={<Watches />} />
-      <Route path="/bright-and-shine/new/dress" element={<Dress />} />
+      <Route path="/bright-and-shine/watches" element={<Watches />} />
+      <Route path="/bright-and-shine/dress" element={<Dress />} />
     </Route>
     <Route path="*" element={<ErrorPage />} />
   </>
